@@ -1,0 +1,116 @@
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  li {
+    font-size: 21px;
+  }
+
+  img {
+    width: 400px;
+  }
+
+  img {
+    display: none;
+  }
+  main {
+    justify-content: center;
+  }
+
+  aside {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  p {
+    font-size: 26.5px;
+    max-width: 550px;
+  }
+
+  form {
+    transform: translate(-10px, 0px);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  form {
+    justify-content: center;
+    align-self: center;
+    transform: translate(0px, 0px);
+  }
+
+  img {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 20px;
+    transition: all 0.4s;
+    font-size: 20px;
+  }
+
+  main {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  aside {
+    margin-top: 40px;
+    gap: 6px;
+  }
+
+  input {
+    margin-left: 0;
+  }
+
+  hr {
+    display: block;
+  }
+
+  p {
+    font-size: 20.5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  aside {
+    align-items: flex-start;
+  }
+
+  form {
+    align-self: flex-start;
+  }
+}

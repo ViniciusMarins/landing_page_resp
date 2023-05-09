@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-6px) rotate(-4deg);
+  }
+  20% {
+    transform: translateX(6px) rotate(4deg);
+  }
+  30% {
+    transform: translateX(-6px) rotate(-4deg);
+  }
+  40% {
+    transform: translateX(6px) rotate(4deg);
+  }
+  40% {
+    transform: translateX(-6px) rotate(-4deg);
+  }
+  60% {
+    transform: translateX(6px) rotate(4deg);
+  }
+  70% {
+    transform: translateX(-6px) rotate(-4deg);
+  }
+  80% {
+    transform: translateX(6px) rotate(4deg);
+  }
+  90% {
+    transform: translateX(-6px) rotate(-4deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.8s ease;
+  color: white;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+h1 {
+  display: block;
+  font-size: 35px;
+  padding: 13px;
+  font-weight: 200;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: rgb(132, 34, 201);
+  transition: color 0.4s;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+span {
+  color: rgb(132, 34, 201);
+}
+
+p {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 500px;
+  margin: 20px 0 20px 0;
+}
+
+img {
+  width: 605px;
+}
+
+img:active {
+  animation: shake 1s ease;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+input {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px 5px black, 5px 5px 10px rgb(132, 34, 201);
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+input:last-child {
+  width: 100%;
+  margin: 20px auto;
+  background-color: rgb(132, 34, 201);
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+input:last-child:hover {
+  transition: color 0.3s ease;
+  letter-spacing: 3px;
+  background-color: rgb(92, 26, 133);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
